@@ -34,7 +34,7 @@ import java.nio.file.Paths;
 public class DirectoryRef {
 	private String fileName;
 	
-	public DirectoryRef(String fileName) throws StfException {
+	DirectoryRef(String fileName) throws StfException {
 		String trimmedFileName = fileName.trim();
 		
 		if (PlatformFinder.isWindows()) {
